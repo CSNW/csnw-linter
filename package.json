@@ -3,15 +3,19 @@
   "version": "1.0.0",
   "description": "CSNW linter",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
+  "scripts": {},
+  "author": "Julie",
   "license": "MIT",  
   "repository": {
     "type": "git",
-    "url": "https://github.com/CSNW/sql-bricks.git"
+    "url": "https://github.com/julieCSNW/csnw-linter"
   },
+  "keywords": [
+    "csnw",
+    "eslint",
+    "javascript",
+    "linter"
+  ],
   "peerDependencies": {
     "eslint": ">= 3"
   },
