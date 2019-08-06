@@ -1,4 +1,4 @@
-# H1 Get Started with VS Code
+### Get Started with VS Code
 
 * If you haven't already, install Eslint: `npm install eslint --save-dev`.
 * Install the CSNW Linter: `npm install @csnw/eslint-config-csnw --save-dev`.
