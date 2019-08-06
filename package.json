@@ -1,0 +1,19 @@
+{
+  "name": "@csnw/eslint-config-csnw",
+  "version": "1.0.0",
+  "description": "CSNW linter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",  
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CSNW/sql-bricks.git"
+  },
+  "peerDependencies": {
+    "eslint": ">= 3"
+  },
+  "dependencies": {}
+}
