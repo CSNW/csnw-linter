@@ -8,7 +8,7 @@ module.exports = {
     "no-undef": "off",
     "no-redeclare": "off",
     "no-inner-declarations": "off",
-    "no-unused-vars": "warn",
+    "no-unused-vars": ["warn", {"args": "none"}],
     "no-restricted-syntax": ["error",
       "BinaryExpression[operator='!==']",
       "BinaryExpression[operator='===']",
