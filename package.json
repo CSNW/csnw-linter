@@ -17,7 +17,8 @@
     "linter"
   ],
   "peerDependencies": {
-    "eslint": ">= 3"
+    "eslint": ">= 3",
+    "eslint-plugin-snakecasejs": "2.2.0"
   },
   "dependencies": {}
 }
