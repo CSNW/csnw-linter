@@ -3,7 +3,23 @@ module.exports = {
   "env": { "node": true },
   "parserOptions": { "ecmaVersion": 2018 },
   "extends": "eslint:recommended",
+  "plugins": [
+    "snakecasejs"
+  ],
+  "settings":
+  {
+    "snakecasejs/filter": [
+      "ClassDeclaration",
+      "ClassExpression",
+      "NewExpression",
+      "FunctionDeclaration",
+      "FunctionExpression",
+      "CallExpression"
+    ],
+    "snakecasejs/whitelist": []
+  },
   "rules": {
+    "snakecasejs/snakecasejs": "error",
     "no-console": "error",
     "no-undef": "off",
     "no-redeclare": "off",

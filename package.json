@@ -1,6 +1,6 @@
 {
   "name": "@csnw/eslint-config-csnw",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "CSNW linter",
   "main": "index.js",
   "scripts": {},
@@ -17,7 +17,8 @@
     "linter"
   ],
   "peerDependencies": {
-    "eslint": ">= 3"
+    "eslint": ">= 3",
+    "eslint-plugin-snakecasejs": "2.2.0"
   },
   "dependencies": {}
 }
