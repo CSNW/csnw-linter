@@ -8,7 +8,14 @@ module.exports = {
   ],
   "settings":
   {
-    "snakecasejs/filter": ["ClassDeclaration", "NewExpression", "FunctionDeclaration"],
+    "snakecasejs/filter": [
+      "ClassDeclaration",
+      "ClassExpression",
+      "NewExpression",
+      "FunctionDeclaration",
+      "FunctionExpression",
+      "CallExpression"
+    ],
     "snakecasejs/whitelist": []
   },
   "rules": {
